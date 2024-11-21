@@ -1,12 +1,19 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "Ayub Khoirudin",
+	"description": "Tutorial using NPM",
+	"license": "MIT",
+	"version": "1.2.0",
+	"keywords": [
+		"Learn",
+		"freecodecamp"
+	],
 	"dependencies": {
 		"express": "^4.14.0"
 	},
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+		"start": "nodemon server.js"
 	},
 	"repository": {
 		"type": "git",
